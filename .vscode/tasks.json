@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Le_Kubiak_Shooter Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Test",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Test",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Test",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"Win64",
+				"Shipping",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Test",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Test",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Test",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Shipping",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Shipping",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_Shooter IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_Shooter IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_Shooter",
+				"IOS",
+				"Shipping",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_ShooterEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"Debug",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_ShooterEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Le_Kubiak_ShooterEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		},
+		{
+			"label": "Le_Kubiak_ShooterEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Le_Kubiak_ShooterEditor",
+				"Win64",
+				"Development",
+				"D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\D Program Files\\Epic Games\\UE_5.2"
+			}
+		}
+	]
+}

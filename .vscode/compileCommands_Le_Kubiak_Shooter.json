@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Source\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\.vscode\\compileCommands_Le_Kubiak_Shooter\\Le_Kubiak_Shooter.259.rsp"
+		],
+		"directory": "D:\\D Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Source\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\.vscode\\compileCommands_Le_Kubiak_Shooter\\Le_Kubiak_Shooter.259.rsp"
+		],
+		"directory": "D:\\D Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Source\\Le_Kubiak_Shooter\\Le_Kubiak_Shooter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\.vscode\\compileCommands_Le_Kubiak_Shooter\\Le_Kubiak_Shooter.259.rsp"
+		],
+		"directory": "D:\\D Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Source\\Le_Kubiak_Shooter\\Le_Kubiak_ShooterGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\.vscode\\compileCommands_Le_Kubiak_Shooter\\Le_Kubiak_Shooter.259.rsp"
+		],
+		"directory": "D:\\D Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\Source\\Le_Kubiak_Shooter\\Le_Kubiak_ShooterGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine\\Unreal Projects\\Le_Kubiak_Shooter\\.vscode\\compileCommands_Le_Kubiak_Shooter\\Le_Kubiak_Shooter.259.rsp"
+		],
+		"directory": "D:\\D Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]
